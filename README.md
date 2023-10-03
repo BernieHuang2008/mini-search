@@ -3,7 +3,7 @@ a mini search enging which use reverse-index.
 
 # useage
 1. construct a `index.json` file, which is a reverse-index file.
-```json
+```
 {
     "keyword1": [
         [
