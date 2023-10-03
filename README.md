@@ -5,7 +5,12 @@ a mini search enging which use reverse-index.
 1. construct a `index.json` file, which is a reverse-index file.
 ```json
 {
-    "keyword1": [["file1", [count, [pos1, pos2, ...]]], ["file2", [count, [pos1, pos2, ...]]], ...],
+    "keyword1": [
+        [
+            "file1", [count, [pos1, pos2, ...]]
+        ],
+        ["file2", [count, [pos1, pos2, ...]]], ...
+    ],
     "keyword2": ...,
 }
 ```
