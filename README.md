@@ -9,7 +9,10 @@ a mini search enging which use reverse-index.
         [
             "file1", [count, [pos1, pos2, ...]]
         ],
-        ["file2", [count, [pos1, pos2, ...]]], ...
+        [
+            "file2", [count, [pos1, pos2, ...]]
+        ], 
+        ...
     ],
     "keyword2": ...,
 }
